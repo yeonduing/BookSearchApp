@@ -23,6 +23,7 @@
 		E23AD5822A26572400E5A4D4 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5812A26572400E5A4D4 /* SearchResponse.swift */; };
 		E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5832A26577600E5A4D4 /* BookResponse.swift */; };
 		E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */; };
+		E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5882A265CB900E5A4D4 /* UIFont+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		E23AD5812A26572400E5A4D4 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		E23AD5832A26577600E5A4D4 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
 		E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		E23AD5882A265CB900E5A4D4 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			children = (
 				E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */,
 				E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */,
+				E23AD5882A265CB900E5A4D4 /* UIFont+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */,
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
+				E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */,
 				E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */,
 				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
 				E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */,
