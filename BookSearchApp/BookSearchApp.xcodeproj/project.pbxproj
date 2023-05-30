@@ -20,6 +20,7 @@
 		E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */; };
 		E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */; };
 		E23AD57F2A264EF400E5A4D4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD57E2A264EF400E5A4D4 /* ImageLoader.swift */; };
+		E23AD5822A26572400E5A4D4 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5812A26572400E5A4D4 /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		E23AD57E2A264EF400E5A4D4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E23AD5812A26572400E5A4D4 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,12 +149,21 @@
 		E23AD5772A264A5900E5A4D4 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				E23AD5802A26571500E5A4D4 /* DTO */,
 				E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */,
 				E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */,
 				E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */,
 				E23AD57E2A264EF400E5A4D4 /* ImageLoader.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		E23AD5802A26571500E5A4D4 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				E23AD5812A26572400E5A4D4 /* SearchResponse.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +304,7 @@
 				E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */,
 				E23AD57F2A264EF400E5A4D4 /* ImageLoader.swift in Sources */,
 				E23AD5462A2634C200E5A4D4 /* SceneDelegate.swift in Sources */,
+				E23AD5822A26572400E5A4D4 /* SearchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
