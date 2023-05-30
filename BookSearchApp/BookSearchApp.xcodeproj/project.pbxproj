@@ -16,6 +16,7 @@
 		E23AD5652A2634C300E5A4D4 /* BookSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */; };
 		E23AD5672A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */; };
 		E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */; };
+		E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITests.swift; sourceTree = "<group>"; };
 		E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E23AD54C2A2634C300E5A4D4 /* Assets.xcassets */,
 				E23AD54E2A2634C300E5A4D4 /* LaunchScreen.storyboard */,
 				E23AD5512A2634C300E5A4D4 /* Info.plist */,
+				E23AD5772A264A5900E5A4D4 /* Network */,
 				E23AD5732A2644FD00E5A4D4 /* Extensions */,
 			);
 			path = BookSearchApp;
@@ -133,6 +136,14 @@
 				E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E23AD5772A264A5900E5A4D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* ViewController.swift in Sources */,
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
 				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
