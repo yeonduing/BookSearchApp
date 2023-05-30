@@ -18,6 +18,7 @@
 		E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */; };
 		E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */; };
 		E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */; };
+		E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				E23AD5782A264A7E00E5A4D4 /* NetworkService.swift */,
 				E23AD57A2A264BC300E5A4D4 /* EndPoints.swift */,
+				E23AD57C2A264ED300E5A4D4 /* ImageCache.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
 				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
 				E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */,
+				E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */,
 				E23AD5462A2634C200E5A4D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
