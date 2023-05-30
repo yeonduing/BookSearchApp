@@ -15,6 +15,7 @@
 		E23AD55B2A2634C300E5A4D4 /* BookSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD55A2A2634C300E5A4D4 /* BookSearchAppTests.swift */; };
 		E23AD5652A2634C300E5A4D4 /* BookSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */; };
 		E23AD5672A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */; };
+		E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E23AD5602A2634C300E5A4D4 /* BookSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITests.swift; sourceTree = "<group>"; };
 		E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E23AD54C2A2634C300E5A4D4 /* Assets.xcassets */,
 				E23AD54E2A2634C300E5A4D4 /* LaunchScreen.storyboard */,
 				E23AD5512A2634C300E5A4D4 /* Info.plist */,
+				E23AD5732A2644FD00E5A4D4 /* Extensions */,
 			);
 			path = BookSearchApp;
 			sourceTree = "<group>";
@@ -122,6 +125,14 @@
 				E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */,
 			);
 			path = BookSearchAppUITests;
+			sourceTree = "<group>";
+		};
+		E23AD5732A2644FD00E5A4D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			files = (
 				E23AD5482A2634C200E5A4D4 /* ViewController.swift in Sources */,
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
+				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
 				E23AD5462A2634C200E5A4D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
