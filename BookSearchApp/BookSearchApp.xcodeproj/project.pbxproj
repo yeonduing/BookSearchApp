@@ -24,6 +24,7 @@
 		E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5832A26577600E5A4D4 /* BookResponse.swift */; };
 		E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */; };
 		E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5882A265CB900E5A4D4 /* UIFont+.swift */; };
+		E23AD58B2A26E26700E5A4D4 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD58A2A26E26700E5A4D4 /* UIImage+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		E23AD5832A26577600E5A4D4 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
 		E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		E23AD5882A265CB900E5A4D4 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		E23AD58A2A26E26700E5A4D4 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */,
 				E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */,
 				E23AD5882A265CB900E5A4D4 /* UIFont+.swift */,
+				E23AD58A2A26E26700E5A4D4 /* UIImage+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
 				E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */,
 				E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */,
+				E23AD58B2A26E26700E5A4D4 /* UIImage+.swift in Sources */,
 				E23AD57F2A264EF400E5A4D4 /* ImageLoader.swift in Sources */,
 				E23AD5462A2634C200E5A4D4 /* SceneDelegate.swift in Sources */,
 				E23AD5822A26572400E5A4D4 /* SearchResponse.swift in Sources */,
