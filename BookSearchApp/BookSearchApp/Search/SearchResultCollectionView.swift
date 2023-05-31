@@ -10,7 +10,7 @@ import UIKit
 final class SearchResultCollectionView: UICollectionView {
 
   init() {
-    super.init(frame: .zero, collectionViewLayout: .init())
+    super.init(frame: .zero, collectionViewLayout: UICollectionViewFlowLayout())
 
     setupStyle()
     setupFlowLayout()
