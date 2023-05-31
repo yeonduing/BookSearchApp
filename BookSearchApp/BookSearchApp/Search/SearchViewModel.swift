@@ -10,6 +10,8 @@ import Combine
 
 final class SearchViewModel {
 
+  let imageLoader: ImageLoader
+
   private let repository: SearchRepositoryProtocol
 
   private let booksSubject: CurrentValueSubject<[Book], Never> = .init([])
@@ -19,8 +21,12 @@ final class SearchViewModel {
   private var isFetching: Bool = false
   private var keyword: String = ""
 
-  init(repository: SearchRepositoryProtocol) {
+  init(
+    repository: SearchRepositoryProtocol,
+    imageLoader: ImageLoader = .init(imageCache: .init(), network: .init(session: .shared))
+  ) {
     self.repository = repository
+    self.imageLoader = imageLoader
   }
 }
 
@@ -42,9 +48,9 @@ extension SearchViewModel {
 
     fetchingCancellable = repository.fetchBooks(using: keyword, page: currentPage)
       .map { [weak booksSubject] (fetchedBooks) -> [Book] in
-        booksSubject?.value.append(contentsOf: fetchedBooks)
+        let books = (booksSubject?.value ?? []) + fetchedBooks
 
-        return booksSubject?.value ?? []
+        return books
       }
       .sink(receiveCompletion: { [weak self] _ in
         self?.isFetching = false
@@ -61,5 +67,13 @@ extension SearchViewModel {
 
   var booksPublisher: AnyPublisher<[Book], Never> {
     booksSubject.eraseToAnyPublisher()
+  }
+
+  var bookCount: Int {
+    booksSubject.value.count
+  }
+
+  var books: [Book] {
+    booksSubject.value
   }
 }
