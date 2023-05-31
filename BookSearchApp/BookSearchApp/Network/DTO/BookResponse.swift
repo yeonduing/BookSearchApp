@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BookResponse: Codable {
+struct BookResponse: Decodable {
 
   let title: String
   let subtitle: String
