@@ -29,6 +29,7 @@
 		E23AD58F2A26F36F00E5A4D4 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD58E2A26F36F00E5A4D4 /* SearchResultCell.swift */; };
 		E23AD5922A26FDB400E5A4D4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5912A26FDB400E5A4D4 /* Book.swift */; };
 		E23AD5942A27272500E5A4D4 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5932A27272500E5A4D4 /* SearchController.swift */; };
+		E23AD5982A273C5600E5A4D4 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		E23AD58E2A26F36F00E5A4D4 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		E23AD5912A26FDB400E5A4D4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		E23AD5932A27272500E5A4D4 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 				E23AD58C2A26F12200E5A4D4 /* SearchResultCollectionView.swift */,
 				E23AD58E2A26F36F00E5A4D4 /* SearchResultCell.swift */,
 				E23AD5932A27272500E5A4D4 /* SearchController.swift */,
+				E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				E23AD57F2A264EF400E5A4D4 /* ImageLoader.swift in Sources */,
 				E23AD5462A2634C200E5A4D4 /* SceneDelegate.swift in Sources */,
 				E23AD5822A26572400E5A4D4 /* SearchResponse.swift in Sources */,
+				E23AD5982A273C5600E5A4D4 /* SearchRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

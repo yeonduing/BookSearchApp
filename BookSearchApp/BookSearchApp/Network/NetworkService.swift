@@ -11,6 +11,8 @@ import Combine
 final class NetworkService {
 
   enum NetworkError: Error {
+    case invaildURL
+    case failToDecodeJson
     case invalidRequest
     case unknownError(message: String)
   }
