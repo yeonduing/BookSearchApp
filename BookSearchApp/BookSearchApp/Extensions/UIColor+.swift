@@ -9,7 +9,7 @@ import UIKit
 
 extension UIColor {
 
-  static let background = UIColor(named: "search-background")
+  static let searchBackground = UIColor(named: "search-background")
   static let detailBackground = UIColor(named: "detail-background")
   static let cellBackground = UIColor(named: "cell-background")
   static let main = UIColor(named: "main")
