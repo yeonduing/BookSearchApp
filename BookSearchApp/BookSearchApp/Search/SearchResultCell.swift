@@ -52,6 +52,14 @@ final class SearchResultCell: UICollectionViewCell {
 private extension SearchResultCell {
 
   func setupStyle() {
+    layer.backgroundColor = UIColor.cellBackground?.cgColor
+    layer.cornerRadius = 10
+    layer.frame = frame
+    layer.shadowOffset = CGSize(width: 5, height: 10)
+    layer.shadowRadius = 20
+    layer.shadowOpacity = 1
+    layer.shadowColor = UIColor.shadow?.cgColor
+
     imageView.contentMode = .scaleAspectFill
 
     titleLabel.font = .thumbnailTitle
