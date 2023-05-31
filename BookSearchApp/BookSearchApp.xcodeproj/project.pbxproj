@@ -25,6 +25,7 @@
 		E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */; };
 		E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5882A265CB900E5A4D4 /* UIFont+.swift */; };
 		E23AD58B2A26E26700E5A4D4 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD58A2A26E26700E5A4D4 /* UIImage+.swift */; };
+		E23AD5922A26FDB400E5A4D4 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5912A26FDB400E5A4D4 /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E23AD5862A265BFD00E5A4D4 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		E23AD5882A265CB900E5A4D4 /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		E23AD58A2A26E26700E5A4D4 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		E23AD5912A26FDB400E5A4D4 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				E23AD5452A2634C200E5A4D4 /* SceneDelegate.swift */,
 				E23AD54C2A2634C300E5A4D4 /* Assets.xcassets */,
 				E23AD54E2A2634C300E5A4D4 /* LaunchScreen.storyboard */,
+				E23AD5902A26FD9B00E5A4D4 /* Entities */,
 				E23AD5852A26582000E5A4D4 /* Search */,
 				E23AD5512A2634C300E5A4D4 /* Info.plist */,
 				E23AD5772A264A5900E5A4D4 /* Network */,
@@ -184,6 +187,14 @@
 				E23AD5472A2634C200E5A4D4 /* SearchViewController.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		E23AD5902A26FD9B00E5A4D4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E23AD5912A26FDB400E5A4D4 /* Book.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23AD5922A26FDB400E5A4D4 /* Book.swift in Sources */,
 				E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */,
 				E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */,
