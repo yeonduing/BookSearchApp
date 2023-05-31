@@ -13,7 +13,7 @@ final class ImageLoader {
   private let imageCache: ImageCache
   private let network: NetworkService
 
-  @Published var image: UIImage? = nil
+  private let imageSubject: CurrentValueSubject<UIImage?, Never> = .init(nil)
   private var cancellables: Set<AnyCancellable> = .init()
 
   init(imageCache: ImageCache, network: NetworkService) {
@@ -22,13 +22,17 @@ final class ImageLoader {
   }
 
   func fetch(urlString: String) {
-    guard image == nil else { return }
+    guard imageSubject.value == nil else { return }
 
     if loadFromCache(urlString: urlString) {
       return
     }
 
     loadFromUrl(urlString: urlString)
+  }
+
+  var imagePublisher: AnyPublisher<UIImage?, Never> {
+    imageSubject.eraseToAnyPublisher()
   }
 }
 
@@ -43,7 +47,7 @@ private extension ImageLoader {
         NSLog("ImageLoader Network request error: \(error)")
       } receiveValue: { [weak self] data in
         if let image: UIImage = .init(data: data) {
-          self?.image = image
+          self?.imageSubject.send(image)
           self?.imageCache.store(forKey: urlString, image: image)
         }
       }
@@ -55,7 +59,7 @@ private extension ImageLoader {
       return false
     }
 
-    self.image = image
+    imageSubject.send(image)
 
     return true
   }

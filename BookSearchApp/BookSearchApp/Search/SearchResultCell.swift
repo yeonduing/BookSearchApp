@@ -33,7 +33,7 @@ final class SearchResultCell: UICollectionViewCell {
     fatalError("init(coder:) has not been implemented")
   }
 
-  func configure(with book: Book) {
+  func configure(with book: Book, imageLoader: ImageLoader) {
     imageLoadCancellable?.cancel()
 
     indicator.startAnimating()
@@ -44,6 +44,8 @@ final class SearchResultCell: UICollectionViewCell {
     isbn13Label.text = book.isbn13
     urlLabel.text = book.urlString
     updateImage(with: book.imageURLString)
+
+    self.imageLoader = imageLoader
   }
 }
 
@@ -77,7 +79,7 @@ private extension SearchResultCell {
   }
 
   func setupLayout() {
-    [titleLabel, subtitleLabel, priceLabel, isbn13Label, urlLabel, indicator].forEach {
+    [imageView, titleLabel, subtitleLabel, priceLabel, isbn13Label, urlLabel, indicator].forEach {
       $0.translatesAutoresizingMaskIntoConstraints = false
       contentView.addSubview($0)
     }
@@ -114,7 +116,7 @@ private extension SearchResultCell {
 
   func updateImage(with imageURLString: String) {
     imageLoadCancellable = imageLoader?
-      .$image
+      .imagePublisher
       .receive(on: DispatchQueue.main)
       .sink { [weak imageView, weak indicator] in
         imageView?.image = $0
