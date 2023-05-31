@@ -14,7 +14,7 @@ final class ImageLoader {
   private let network: NetworkService
 
   @Published var image: UIImage? = nil
-  private var cancellables: [AnyCancellable] = .init()
+  private var cancellables: Set<AnyCancellable> = .init()
 
   init(imageCache: ImageCache, network: NetworkService) {
     self.imageCache = imageCache

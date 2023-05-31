@@ -15,7 +15,7 @@ struct SearchResponse: Decodable {
   let books: [SearchBookResponse]
 }
 
-struct SearchBookResponse: Codable, Hashable {
+struct SearchBookResponse: Decodable, Hashable {
 
   let title: String
   let subtitle: String
