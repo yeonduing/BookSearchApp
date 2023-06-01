@@ -10,7 +10,8 @@ import Combine
 
 final class SearchViewModel {
 
-  let imageLoader: ImageLoader
+  let imageCache: ImageCache
+  let network: NetworkService
 
   private let repository: SearchRepositoryProtocol
 
@@ -23,10 +24,12 @@ final class SearchViewModel {
 
   init(
     repository: SearchRepositoryProtocol,
-    imageLoader: ImageLoader = .init(imageCache: .init(), network: .init(session: .shared))
+    imageCache: ImageCache = .init(),
+    network: NetworkService = .init(session: .shared)
   ) {
     self.repository = repository
-    self.imageLoader = imageLoader
+    self.imageCache = imageCache
+    self.network = network
   }
 }
 
@@ -35,6 +38,9 @@ extension SearchViewModel {
   func fetchBooks(using keyword: String? = nil) {
     guard !isFetching else { return }
 
+    isFetching = true
+    currentPage += 1
+
     if let keyword {
       removeBooks()
       currentPage = 1
@@ -42,9 +48,6 @@ extension SearchViewModel {
     }
 
     let keyword = keyword ?? self.keyword
-
-    isFetching = true
-    currentPage += 1
 
     fetchingCancellable = repository.fetchBooks(using: keyword, page: currentPage)
       .map { [weak booksSubject] (fetchedBooks) -> [Book] in

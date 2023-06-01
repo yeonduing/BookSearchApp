@@ -117,7 +117,7 @@ extension SearchViewController: UICollectionViewDataSource {
     cellForItemAt indexPath: IndexPath
   ) -> UICollectionViewCell {
     let cell: SearchResultCell = collectionView.dequeueReusableCell(for: indexPath)
-    cell.configure(with: viewModel.books[indexPath.row], imageLoader: viewModel.imageLoader)
+    cell.configure(with: viewModel.books[indexPath.row], imageCache: viewModel.imageCache, network: viewModel.network)
 
     return cell
   }

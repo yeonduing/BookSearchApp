@@ -33,8 +33,10 @@ final class SearchResultCell: UICollectionViewCell {
     fatalError("init(coder:) has not been implemented")
   }
 
-  func configure(with book: Book, imageLoader: ImageLoader) {
-    imageLoadCancellable?.cancel()
+  func configure(with book: Book, imageCache: ImageCache, network: NetworkService) {
+    imageLoader = .init(imageCache: imageCache, network: network)
+
+    bindImageLoader()
 
     indicator.startAnimating()
 
@@ -44,8 +46,6 @@ final class SearchResultCell: UICollectionViewCell {
     isbn13Label.text = book.isbn13
     urlLabel.text = book.urlString
     updateImage(with: book.imageURLString)
-
-    self.imageLoader = imageLoader
   }
 }
 
@@ -122,7 +122,7 @@ private extension SearchResultCell {
     ])
   }
 
-  func updateImage(with imageURLString: String) {
+  func bindImageLoader() {
     imageLoadCancellable = imageLoader?
       .imagePublisher
       .receive(on: DispatchQueue.main)
@@ -130,5 +130,9 @@ private extension SearchResultCell {
         imageView?.image = $0
         indicator?.stopAnimating()
       }
+  }
+
+  func updateImage(with imageURLString: String) {
+    imageLoader?.fetch(urlString: imageURLString)
   }
 }
