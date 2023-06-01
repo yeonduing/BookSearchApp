@@ -194,10 +194,7 @@
 		E23AD5852A26582000E5A4D4 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				E23AD5472A2634C200E5A4D4 /* SearchViewController.swift */,
-				E23AD58C2A26F12200E5A4D4 /* SearchResultCollectionView.swift */,
-				E23AD58E2A26F36F00E5A4D4 /* SearchResultCell.swift */,
-				E23AD5932A27272500E5A4D4 /* SearchController.swift */,
+				E2D0CDB32A2875F800178468 /* Views */,
 				E23AD5952A27334500E5A4D4 /* SearchViewModel.swift */,
 				E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */,
 			);
@@ -210,6 +207,17 @@
 				E23AD5912A26FDB400E5A4D4 /* Book.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		E2D0CDB32A2875F800178468 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E23AD5472A2634C200E5A4D4 /* SearchViewController.swift */,
+				E23AD58C2A26F12200E5A4D4 /* SearchResultCollectionView.swift */,
+				E23AD58E2A26F36F00E5A4D4 /* SearchResultCell.swift */,
+				E23AD5932A27272500E5A4D4 /* SearchController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
