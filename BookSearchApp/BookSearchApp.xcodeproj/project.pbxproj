@@ -33,6 +33,7 @@
 		E23AD5982A273C5600E5A4D4 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */; };
 		E2D0CDB62A28763800178468 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDB52A28763800178468 /* DetailViewController.swift */; };
 		E2D0CDBA2A289B0900178468 /* DetailInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */; };
+		E2D0CDBE2A289BC900178468 /* RatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBD2A289BC900178468 /* RatingStackView.swift */; };
 		E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBF2A289BD800178468 /* StarImageView.swift */; };
 		E2D0CDC22A289D7800178468 /* ISBNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC12A289D7800178468 /* ISBNView.swift */; };
 		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
@@ -86,6 +87,7 @@
 		E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		E2D0CDB52A28763800178468 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoLabel.swift; sourceTree = "<group>"; };
+		E2D0CDBD2A289BC900178468 /* RatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStackView.swift; sourceTree = "<group>"; };
 		E2D0CDBF2A289BD800178468 /* StarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarImageView.swift; sourceTree = "<group>"; };
 		E2D0CDC12A289D7800178468 /* ISBNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNView.swift; sourceTree = "<group>"; };
 		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 			children = (
 				E2D0CDB52A28763800178468 /* DetailViewController.swift */,
 				E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */,
+				E2D0CDBD2A289BC900178468 /* RatingStackView.swift */,
 				E2D0CDBF2A289BD800178468 /* StarImageView.swift */,
 				E2D0CDC12A289D7800178468 /* ISBNView.swift */,
 				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
@@ -387,6 +390,7 @@
 				E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */,
 				E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */,
 				E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */,
+				E2D0CDBE2A289BC900178468 /* RatingStackView.swift in Sources */,
 				E2D0CDC22A289D7800178468 /* ISBNView.swift in Sources */,
 				E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */,
 				E23AD5942A27272500E5A4D4 /* SearchController.swift in Sources */,
