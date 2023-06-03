@@ -32,6 +32,7 @@
 		E23AD5962A27334500E5A4D4 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5952A27334500E5A4D4 /* SearchViewModel.swift */; };
 		E23AD5982A273C5600E5A4D4 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */; };
 		E2D0CDB62A28763800178468 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDB52A28763800178468 /* DetailViewController.swift */; };
+		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		E23AD5952A27334500E5A4D4 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		E2D0CDB52A28763800178468 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D0CDB52A28763800178468 /* DetailViewController.swift */,
+				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 			files = (
 				E23AD5922A26FDB400E5A4D4 /* Book.swift in Sources */,
 				E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */,
+				E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */,
 				E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */,
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
