@@ -42,6 +42,7 @@
 		E2D0CDC62A28C07C00178468 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */; };
 		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
 		E2D0CDCA2A28E80F00178468 /* DetailOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */; };
+		E2D0CDCC2A28FDDD00178468 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDCB2A28FDDD00178468 /* DetailViewModel.swift */; };
 		E2D0CDCE2A291A8E00178468 /* DetailRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDCD2A291A8E00178468 /* DetailRepository.swift */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +103,7 @@
 		E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
 		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
 		E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOptionButton.swift; sourceTree = "<group>"; };
+		E2D0CDCB2A28FDDD00178468 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		E2D0CDCD2A291A8E00178468 /* DetailRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -259,6 +261,7 @@
 				E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */,
 				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
 				E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */,
+				E2D0CDCB2A28FDDD00178468 /* DetailViewModel.swift */,
 				E2D0CDCD2A291A8E00178468 /* DetailRepository.swift */,
 			);
 			path = Detail;
@@ -408,6 +411,7 @@
 				E23AD58F2A26F36F00E5A4D4 /* SearchResultCell.swift in Sources */,
 				E2D0CDBA2A289B0900178468 /* DetailInfoLabel.swift in Sources */,
 				E23AD5962A27334500E5A4D4 /* SearchViewModel.swift in Sources */,
+				E2D0CDCC2A28FDDD00178468 /* DetailViewModel.swift in Sources */,
 				E2D0CDB62A28763800178468 /* DetailViewController.swift in Sources */,
 				E23AD5892A265CB900E5A4D4 /* UIFont+.swift in Sources */,
 				E23AD5872A265BFD00E5A4D4 /* UIColor+.swift in Sources */,
