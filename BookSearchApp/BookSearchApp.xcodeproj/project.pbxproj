@@ -37,6 +37,7 @@
 		E2D0CDBE2A289BC900178468 /* RatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBD2A289BC900178468 /* RatingStackView.swift */; };
 		E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBF2A289BD800178468 /* StarImageView.swift */; };
 		E2D0CDC22A289D7800178468 /* ISBNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC12A289D7800178468 /* ISBNView.swift */; };
+		E2D0CDC62A28C07C00178468 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */; };
 		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,7 @@
 		E2D0CDBD2A289BC900178468 /* RatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStackView.swift; sourceTree = "<group>"; };
 		E2D0CDBF2A289BD800178468 /* StarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarImageView.swift; sourceTree = "<group>"; };
 		E2D0CDC12A289D7800178468 /* ISBNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNView.swift; sourceTree = "<group>"; };
+		E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
 		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -244,6 +246,7 @@
 				E2D0CDBD2A289BC900178468 /* RatingStackView.swift */,
 				E2D0CDBF2A289BD800178468 /* StarImageView.swift */,
 				E2D0CDC12A289D7800178468 /* ISBNView.swift */,
+				E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */,
 				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
 			);
 			path = Detail;
@@ -399,6 +402,7 @@
 				E23AD57B2A264BC300E5A4D4 /* EndPoints.swift in Sources */,
 				E23AD5942A27272500E5A4D4 /* SearchController.swift in Sources */,
 				E23AD58D2A26F12200E5A4D4 /* SearchResultCollectionView.swift in Sources */,
+				E2D0CDC62A28C07C00178468 /* DetailSummaryView.swift in Sources */,
 				E23AD57D2A264ED300E5A4D4 /* ImageCache.swift in Sources */,
 				E23AD58B2A26E26700E5A4D4 /* UIImage+.swift in Sources */,
 				E23AD57F2A264EF400E5A4D4 /* ImageLoader.swift in Sources */,
