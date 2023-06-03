@@ -19,7 +19,7 @@ extension UIColor {
   static let shadow = UIColor(named: "shadow")
   static let leftGradient = UIColor(named: "left-gradient")
   static let rightGradient = UIColor(named: "right-gradient")
-  static let optionButton = UIColor(named: "option-button")
-  static let optionButtonTint = UIColor(named: "option-button-tint")
-  static let optionButtonDisable = UIColor(named: "option-button-disable")
+  static let detailOptionButton = UIColor(named: "detail-option-button")
+  static let detailOptionButtonTint = UIColor(named: "detail-option-button-tint")
+  static let detailOptionButtonDisable = UIColor(named: "detail-option-button-disable")
 }
