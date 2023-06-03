@@ -250,6 +250,16 @@
 		E2D0CDB42A28761E00178468 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				E2D0CDCF2A2B0A0200178468 /* Views */,
+				E2D0CDCB2A28FDDD00178468 /* DetailViewModel.swift */,
+				E2D0CDCD2A291A8E00178468 /* DetailRepository.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E2D0CDCF2A2B0A0200178468 /* Views */ = {
+			isa = PBXGroup;
+			children = (
 				E2D0CDB52A28763800178468 /* DetailViewController.swift */,
 				E2D0CDC32A28C04800178468 /* DetailInfoStackView.swift */,
 				E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */,
@@ -261,10 +271,8 @@
 				E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */,
 				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
 				E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */,
-				E2D0CDCB2A28FDDD00178468 /* DetailViewModel.swift */,
-				E2D0CDCD2A291A8E00178468 /* DetailRepository.swift */,
 			);
-			path = Detail;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
