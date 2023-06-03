@@ -10,13 +10,13 @@ import Combine
 
 final class ImageLoader {
 
-  private let imageCache: ImageCache
+  private let imageCache: ImageCacheable
   private let network: NetworkService
 
   private let imageSubject: CurrentValueSubject<UIImage?, Never> = .init(nil)
   private var cancellables: Set<AnyCancellable> = .init()
 
-  init(imageCache: ImageCache, network: NetworkService) {
+  init(imageCache: ImageCacheable, network: NetworkService) {
     self.imageCache = imageCache
     self.network = network
   }

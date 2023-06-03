@@ -106,7 +106,12 @@ extension SearchViewController: UICollectionViewDelegate {
     _ collectionView: UICollectionView,
     didSelectItemAt indexPath: IndexPath
   ) {
-    // TODO: show detail viewController
+    let detailRepository: DetailRepository = .init()
+    let detailViewModel: DetailViewModel = .init(isbn13: viewModel.books[indexPath.row].isbn13, repository: detailRepository)
+    let imageLoader: ImageLoader = .init(imageCache: viewModel.imageDiskCache, network: viewModel.network)
+    let detailViewController: DetailViewController = .init(viewModel: detailViewModel, imageLoader: imageLoader)
+
+    navigationController?.show(detailViewController, sender: nil)
   }
 }
 
@@ -117,7 +122,7 @@ extension SearchViewController: UICollectionViewDataSource {
     cellForItemAt indexPath: IndexPath
   ) -> UICollectionViewCell {
     let cell: SearchResultCell = collectionView.dequeueReusableCell(for: indexPath)
-    cell.configure(with: viewModel.books[indexPath.row], imageCache: viewModel.imageCache, network: viewModel.network)
+    cell.configure(with: viewModel.books[indexPath.row], imageCache: viewModel.imageMemoryCache, network: viewModel.network)
 
     return cell
   }

@@ -33,7 +33,7 @@ final class SearchResultCell: UICollectionViewCell {
     fatalError("init(coder:) has not been implemented")
   }
 
-  func configure(with book: Book, imageCache: ImageCache, network: NetworkService) {
+  func configure(with book: Book, imageCache: ImageCacheable, network: NetworkService) {
     imageLoader = .init(imageCache: imageCache, network: network)
 
     bindImageLoader()

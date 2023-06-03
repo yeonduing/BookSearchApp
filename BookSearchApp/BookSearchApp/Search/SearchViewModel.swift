@@ -10,7 +10,8 @@ import Combine
 
 final class SearchViewModel {
 
-  let imageCache: ImageCache
+  let imageMemoryCache: ImageMemoryCache = .init()
+  let imageDiskCache: ImageDiskCache = .init()
   let network: NetworkService
 
   private let repository: SearchRepositoryProtocol
@@ -24,11 +25,9 @@ final class SearchViewModel {
 
   init(
     repository: SearchRepositoryProtocol,
-    imageCache: ImageCache = .init(),
     network: NetworkService = .init(session: .shared)
   ) {
     self.repository = repository
-    self.imageCache = imageCache
     self.network = network
   }
 }
