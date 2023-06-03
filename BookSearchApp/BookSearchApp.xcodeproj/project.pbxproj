@@ -33,6 +33,7 @@
 		E23AD5982A273C5600E5A4D4 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */; };
 		E2D0CDB62A28763800178468 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDB52A28763800178468 /* DetailViewController.swift */; };
 		E2D0CDBA2A289B0900178468 /* DetailInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */; };
+		E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBF2A289BD800178468 /* StarImageView.swift */; };
 		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		E23AD5972A273C5600E5A4D4 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		E2D0CDB52A28763800178468 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoLabel.swift; sourceTree = "<group>"; };
+		E2D0CDBF2A289BD800178468 /* StarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarImageView.swift; sourceTree = "<group>"; };
 		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,6 +234,7 @@
 			children = (
 				E2D0CDB52A28763800178468 /* DetailViewController.swift */,
 				E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */,
+				E2D0CDBF2A289BD800178468 /* StarImageView.swift */,
 				E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */,
 			);
 			path = Detail;
@@ -372,6 +375,7 @@
 				E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */,
 				E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */,
+				E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */,
 				E23AD5442A2634C200E5A4D4 /* AppDelegate.swift in Sources */,
 				E23AD58F2A26F36F00E5A4D4 /* SearchResultCell.swift in Sources */,
 				E2D0CDBA2A289B0900178468 /* DetailInfoLabel.swift in Sources */,
