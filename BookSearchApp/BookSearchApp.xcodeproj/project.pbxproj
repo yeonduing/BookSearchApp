@@ -38,6 +38,7 @@
 		E2D0CDBE2A289BC900178468 /* RatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBD2A289BC900178468 /* RatingStackView.swift */; };
 		E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDBF2A289BD800178468 /* StarImageView.swift */; };
 		E2D0CDC22A289D7800178468 /* ISBNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC12A289D7800178468 /* ISBNView.swift */; };
+		E2D0CDC42A28C04800178468 /* DetailInfoStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC32A28C04800178468 /* DetailInfoStackView.swift */; };
 		E2D0CDC62A28C07C00178468 /* DetailSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */; };
 		E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */; };
 		E2D0CDCA2A28E80F00178468 /* DetailOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */; };
@@ -96,6 +97,7 @@
 		E2D0CDBD2A289BC900178468 /* RatingStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStackView.swift; sourceTree = "<group>"; };
 		E2D0CDBF2A289BD800178468 /* StarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarImageView.swift; sourceTree = "<group>"; };
 		E2D0CDC12A289D7800178468 /* ISBNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNView.swift; sourceTree = "<group>"; };
+		E2D0CDC32A28C04800178468 /* DetailInfoStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoStackView.swift; sourceTree = "<group>"; };
 		E2D0CDC52A28C07C00178468 /* DetailSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSummaryView.swift; sourceTree = "<group>"; };
 		E2D0CDC72A28E78B00178468 /* DetailBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBlurView.swift; sourceTree = "<group>"; };
 		E2D0CDC92A28E80F00178468 /* DetailOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOptionButton.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				E2D0CDB52A28763800178468 /* DetailViewController.swift */,
+				E2D0CDC32A28C04800178468 /* DetailInfoStackView.swift */,
 				E2D0CDB92A289B0900178468 /* DetailInfoLabel.swift */,
 				E2D0CDBB2A289B5500178468 /* RatingAndPriceView.swift */,
 				E2D0CDBD2A289BC900178468 /* RatingStackView.swift */,
@@ -393,6 +396,7 @@
 				E23AD5792A264A7E00E5A4D4 /* NetworkService.swift in Sources */,
 				E2D0CDC82A28E78B00178468 /* DetailBlurView.swift in Sources */,
 				E23AD5842A26577600E5A4D4 /* BookResponse.swift in Sources */,
+				E2D0CDC42A28C04800178468 /* DetailInfoStackView.swift in Sources */,
 				E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */,
 				E2D0CDB82A289A6800178468 /* DetailSummaryStackView.swift in Sources */,
 				E2D0CDC02A289BD800178468 /* StarImageView.swift in Sources */,
