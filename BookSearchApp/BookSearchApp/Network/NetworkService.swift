@@ -10,7 +10,7 @@ import Combine
 
 final class NetworkService {
 
-  enum NetworkError: Error {
+  enum NetworkError: Error, Equatable {
     case invaildURL
     case failToDecodeJson
     case invalidRequest

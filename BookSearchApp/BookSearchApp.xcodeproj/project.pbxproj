@@ -12,7 +12,7 @@
 		E23AD5482A2634C200E5A4D4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5472A2634C200E5A4D4 /* SearchViewController.swift */; };
 		E23AD54D2A2634C300E5A4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23AD54C2A2634C300E5A4D4 /* Assets.xcassets */; };
 		E23AD5502A2634C300E5A4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23AD54E2A2634C300E5A4D4 /* LaunchScreen.storyboard */; };
-		E23AD55B2A2634C300E5A4D4 /* BookSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD55A2A2634C300E5A4D4 /* BookSearchAppTests.swift */; };
+		E23AD55B2A2634C300E5A4D4 /* FetchBookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD55A2A2634C300E5A4D4 /* FetchBookTest.swift */; };
 		E23AD5652A2634C300E5A4D4 /* BookSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */; };
 		E23AD5672A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */; };
 		E23AD5752A26451200E5A4D4 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AD5742A26451200E5A4D4 /* UICollectionView+.swift */; };
@@ -72,7 +72,7 @@
 		E23AD54F2A2634C300E5A4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23AD5512A2634C300E5A4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E23AD5562A2634C300E5A4D4 /* BookSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23AD55A2A2634C300E5A4D4 /* BookSearchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppTests.swift; sourceTree = "<group>"; };
+		E23AD55A2A2634C300E5A4D4 /* FetchBookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchBookTest.swift; sourceTree = "<group>"; };
 		E23AD5602A2634C300E5A4D4 /* BookSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23AD5642A2634C300E5A4D4 /* BookSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITests.swift; sourceTree = "<group>"; };
 		E23AD5662A2634C300E5A4D4 /* BookSearchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		E23AD5592A2634C300E5A4D4 /* BookSearchAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E23AD55A2A2634C300E5A4D4 /* BookSearchAppTests.swift */,
+				E23AD55A2A2634C300E5A4D4 /* FetchBookTest.swift */,
 			);
 			path = BookSearchAppTests;
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E23AD55B2A2634C300E5A4D4 /* BookSearchAppTests.swift in Sources */,
+				E23AD55B2A2634C300E5A4D4 /* FetchBookTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
